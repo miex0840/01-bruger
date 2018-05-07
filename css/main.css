@@ -15,13 +15,17 @@ section {
     padding: 2vh;
 }
 
+img {
+    width: 100%;
+}
+
 .farve {
     background-color: #8b8b8b;
     color: white;
 }
 
 #instagram {
-    background-image: url("/instagrambaggrund.png");
+    background-image: url("/billeder/instagrambaggrund.png");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -30,7 +34,7 @@ section {
     height: 400px;
 }
 
-img {
+#instagram img {
     width: 50%;
     max-width: 200px;
 }
@@ -39,6 +43,17 @@ footer {
     text-align: center;
     background-color: #efefef;
     padding: 2vh;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 2vh;
 }
 
 /* Navigation */
@@ -85,6 +100,7 @@ nav ul li {
 
 h1,
 h2,
+h3,
 a,
 p {
     font-family: 'Montserrat', sans-serif;
@@ -102,9 +118,4 @@ a {
 
 a:hover {
     color: black;
-}
-
-#instagram p,
-h2 {
-    color: white;
 }
