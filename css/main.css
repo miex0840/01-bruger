@@ -39,6 +39,14 @@ img {
     max-width: 200px;
 }
 
+#xd a {
+    color: white;
+}
+
+#xd a:hover {
+    color: lightgray;
+}
+
 footer {
     text-align: center;
     background-color: #efefef;
